@@ -12,7 +12,9 @@ import android.widget.Toast
 import androidx.fragment.app.viewModels
 import com.example.translator.databinding.FragmentTranslateBinding
 import com.example.translator.viewmodel.TranslateViewModel
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class TranslateFragment : Fragment() {
 
     private lateinit var binding: FragmentTranslateBinding
